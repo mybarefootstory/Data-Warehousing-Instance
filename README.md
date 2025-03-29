@@ -50,25 +50,3 @@ Develop SQL-based analytics to deliver detailed insights into:
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making. The `gold.dim_customers`, `gold.dim_products`, and `gold.fact_sales` views provide a foundation for analytics and reporting.
 
-## Repository Structure
-```
-data-warehouse-project/
-│
-├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
-│
-├── scripts/                            # SQL scripts for ETL and transformations
-│   ├── bronze/                         # Scripts for extracting and loading raw data
-│   │   ├── ddl_bronze.sql              # Create tables for Bronze layer
-│   │   ├── load_bronze.sql             # Load data into Bronze layer
-│   ├── silver/                         # Scripts for cleaning and transforming data
-│   │   ├── ddl_silver.sql              # Create tables for Silver layer
-│   │   ├── load_silver.sql             # Load data into Silver layer
-│   ├── gold/                           # Scripts for creating analytical models
-│   │   ├── ddl_gold.sql                # Create views for Gold layer
-│
-├── tests/                              # Test scripts and quality files
-│   ├── quality_checks_gold.sql         # Quality checks for Gold layer
-│   ├── quality_checks_silver.sql       # Quality checks for Silver layer
-│
-├── README.md                           # Project overview and instructions
-├── .gitignore                          # Files and directories to be ignored by Git
