@@ -1,5 +1,3 @@
-Based on the provided `README.md` file, I will update the content with detailed context.
-
 # Data Warehouse and Analytics Project
 
 Welcome to the **Data Warehouse and Analytics Project** repository! 
